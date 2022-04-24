@@ -1,4 +1,4 @@
-var connection = new WebSocket('ws://webrtcserver.azurewebsites.net:443'); 
+var connection = new WebSocket('wss://webrtcserver.azurewebsites.net:443'); 
 var name = "";
 
 var loginInput = document.querySelector('#loginInput'); 
